@@ -28,6 +28,11 @@ jobs:
                   node-version: 20
                   cache: "pnpm"
 
+            - name: Ensure submodules
+              run: |
+                  git submodule init
+                  git submodule update
+
             - name: Install dependencies
               run: pnpm install --frozen-lockfile
 

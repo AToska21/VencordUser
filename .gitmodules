@@ -1,0 +1,9 @@
+[submodule "src/userplugins/KeyboardSounds"]
+	path = src/userplugins/KeyboardSounds
+	url = https://github.com/Domis-Vencord-Plugins/KeyboardSounds
+[submodule "src/userplugins/in-role"]
+	path = src/userplugins/in-role
+	url = https://git.nin0.dev/userplugins/in-role
+[submodule "src/userplugins/bigFileUpload"]
+	path = src/userplugins/bigFileUpload
+	url = https://github.com/ScattrdBlade/bigFileUpload
