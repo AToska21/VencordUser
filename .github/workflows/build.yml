@@ -61,5 +61,4 @@ jobs:
                   gh release edit devbuild --title "DevBuild but Andrea made it"
               env:
                   GITHUB_TOKEN: ${{ secrets.TOKEN }}
-                  RELEASE_TAG: ${{ env.release_tag }}
 
