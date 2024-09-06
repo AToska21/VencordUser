@@ -58,7 +58,7 @@ jobs:
               if: github.repository == 'AToska21/VencordUser'
               run: |
                   gh release upload devbuild --clobber dist/*
-                  gh release edit devbuild --title "DevBuild $RELEASE_TAG"
+                  gh release edit devbuild --title "DevBuild but Andrea made it"
               env:
                   GITHUB_TOKEN: ${{ secrets.TOKEN }}
                   RELEASE_TAG: ${{ env.release_tag }}
