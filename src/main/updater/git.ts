@@ -41,9 +41,7 @@ function git(...args: string[]) {
 
 async function getRepo() {
     const res = await git("remote", "get-url", "origin");
-    return res.stdout.trim()
-        .replace(/git@(.+):/, "https://$1/")
-        .replace(/\.git$/, "");
+    return "https://github.com/AToska21/VencordUser";
 }
 
 async function calculateGitChanges() {
