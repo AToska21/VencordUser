@@ -28,7 +28,7 @@ import gitRemote from "~git-remote";
 
 import { serializeErrors, VENCORD_FILES } from "./common";
 
-const API_BASE = `https://api.github.com/repos/${gitRemote}`;
+const API_BASE = `https://api.github.com/repos/AToska21/VencordUser`;
 let PendingUpdates = [] as [string, string][];
 
 async function githubGet(endpoint: string) {
